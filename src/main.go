@@ -23,5 +23,5 @@ func main() {
 
 	println("*******operator_test")
 	operator_test.Operate()
-
+	datatype_test.TestName()
 }

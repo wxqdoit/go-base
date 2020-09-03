@@ -1,5 +1,7 @@
 package datatype_test
 
+import "fmt"
+
 var TBool bool = true
 var TString string = "oh, go WTF!!"
 
@@ -50,4 +52,16 @@ func numbers() (int, int, int) {
 	println(v1, v2, v3, v4)
 	var q, w, e = 1, 2, 3
 	return q, w, e
+}
+
+type Wang struct {
+	Name string
+}
+
+func TestName() {
+	w := Wang{
+		Name: "12Wang",
+	}
+	fmt.Printf(w.Name)
+
 }
